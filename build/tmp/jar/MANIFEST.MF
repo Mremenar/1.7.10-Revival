@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: revival
+Specification-Vendor: Mremenar
+Specification-Version: 1
+Implementation-Title: orespawn-forge-gradlew
+Implementation-Version: 1.0.0
+Implementation-Vendor: Mremenar
+Implementation-Timestamp: 2025-10-27T15:59:02-0700
+

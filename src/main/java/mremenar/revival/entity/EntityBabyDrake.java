@@ -28,6 +28,9 @@ public class EntityBabyDrake extends Animal {
         this.goalSelector.addGoal(2, new WaterAvoidingRandomStrollGoal(this, 0.6D));
         this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, 6.0F));
         this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
+	this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Monster.class, true));  // Attacks hostiles only!
+	public InteractionResult mobInteract(Player player, InteractionHand hand) {
+    // ... same raw beef taming code as Drake
     }
 
     @Override

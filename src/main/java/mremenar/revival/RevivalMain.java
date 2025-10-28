@@ -41,6 +41,6 @@ public class RevivalMain {
     public RevivalMain() {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         ENTITIES.register(modBus);
-	RevivalItems.ITEMS.register(modBus);
+	// RevivalItems.ITEMS.register(modBus); //
     }
 }
